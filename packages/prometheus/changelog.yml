@@ -3,7 +3,11 @@
   changes:
     - description: Add processors
       type: enhancement
+<<<<<<< HEAD
       link: https://github.com/elastic/integrations/pull/5761
+=======
+      link: https://github.com/elastic/integrations/pull/5123
+>>>>>>> 7f25443fcd87c67100f9964db1c825423b9018ac
 - version: "1.3.1"
   changes:
     - description: Added categories and/or subcategories.
