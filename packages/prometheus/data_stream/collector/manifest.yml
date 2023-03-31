@@ -132,6 +132,7 @@ streams:
         default: |
           # query:
           #   key: value
+<<<<<<< HEAD
       - name: data_stream.dataset
         type: text
         title: 'Datasream Dataset name'
@@ -140,6 +141,16 @@ streams:
         default: prometheus.collector
         required: true
         show_user: true    
+=======
+      - name: processors
+        type: yaml
+        title: Processors
+        multi: false
+        required: false
+        show_user: false
+        description: >
+          Processors are used to reduce the number of fields in the exported event or to enhance the event with metadata. This executes in the agent before the logs are parsed. See [Processors](https://www.elastic.co/guide/en/beats/filebeat/current/filtering-and-enhancing-data.html) for details.
+>>>>>>> integrations-patch-prometheus
     title: Prometheus collector metrics
     enabled: true
     description: Collect Prometheus collector metrics
